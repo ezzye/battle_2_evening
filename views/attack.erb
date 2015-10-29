@@ -1,5 +1,5 @@
-<div><%= @game.player1.name %> attacked <%= @game.player2.name %></div>
-<div><%= @game.player2.name %> has <%= @game.player2.hit_points %> hit points</div>
+<div><%= @game.attacking_player.name %> attacked <%= @game.attacked_player.name %></div>
+<div><%= @game.attacked_player.name %> has <%= @game.attacked_player.hit_points %> hit points</div>
 
 
 <a href="/switch_turn">Switch Turn</a>

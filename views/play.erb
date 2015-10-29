@@ -1,4 +1,5 @@
 <div><%=@game.player1.name%> vs <%=@game.player2.name%></div>
-<div><%=@game.player2.name%> HP = 100</div>
+<div><%=@game.player1.name%> HP = <%= @game.player1.hit_points %></div>
+<div><%=@game.player2.name%> HP = <%= @game.player2.hit_points %></div>
 
 <a href="/attack">Attack <%=@game.attacked_player.name %> </a>
